@@ -290,6 +290,8 @@
 
 (custom-set-face! :Title [] {:fg oxocarbon.base04 :bg oxocarbon.none})
 ;; VertSplit has been replaced by `WinSpeperator` in nvim 0.10
+(custom-set-face! :VertSplit [] {:fg oxocarbon.base01 :bg oxocarbon.base00})
+(custom-set-face! :WinSeparator [] {:fg oxocarbon.base01 :bg oxocarbon.base00})
 
 ;; regular syntax
 
@@ -516,7 +518,7 @@
 
 (custom-set-face! :NvimInternalError [] {:fg oxocarbon.base00 :bg oxocarbon.base08})
 (custom-set-face! :NormalFloat [] {:fg oxocarbon.base05 :bg oxocarbon.base08})
-(custom-set-face! :FloatBorder [] {:fg oxocarbon.base06 :bg oxocarbon.base08})
+(custom-set-face! :FloatBorder [] {:fg oxocarbon.base06 :bg oxocarbon.base00})
 (custom-set-face! :NormalNC [] {:fg oxocarbon.base05 :bg oxocarbon.base00})
 (custom-set-face! :TermCursor [] {:fg oxocarbon.base00 :bg oxocarbon.base04})
 (custom-set-face! :TermCursorNC [] {:fg oxocarbon.base00 :bg oxocarbon.base04})
