@@ -72,7 +72,7 @@
                            :base13 "#42be65"
                            :base14 "#be95ff"
                            :base15 "#82cfff"
-                           :blend "#131313"
+                           :blend "#3f3f3f"
                            :none :NONE})
                      {:base00 base06
                       :base01 (blend-hex base00 base06 0.95)
